@@ -13,8 +13,8 @@
           (body (h1 "test simple web")))))
 
 (serve/servlet start
-               #:port 80
+                    #:port 80
                	#:command-line? #t
                     #:listen-ip "www.epspe.xyz"
-              #:server-root-path	"/root/simpleweb"
+                    #:server-root-path	"./simpleweb"
               )

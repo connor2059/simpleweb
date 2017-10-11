@@ -15,5 +15,6 @@
 (serve/servlet start
                #:port 80
                	#:command-line? #t
+                    #:listen-ip "www.epspe.xyz"
               #:server-root-path	"/root/simpleweb"
               )
